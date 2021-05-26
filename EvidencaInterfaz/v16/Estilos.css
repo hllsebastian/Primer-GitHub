@@ -1,4 +1,8 @@
 body {
-    background: red;
+    background: silver;
     text-align: center;
+}
+
+#saludo {
+    background: rgb(112, 179, 112);
 }
