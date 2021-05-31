@@ -1,10 +1,116 @@
+*{
+    margin: 0px;
+}
+
 body {
     font-family: calibri;
     background:  #fbf7f6 ;
+  
+}
+
+.clearfix {
+    clear:both
+}
+
+/*/*************************pagina para inciar sesion/****************/
+#saludo {
+    height: 200px;
+    background:  #51f173;
+    text-align: center;
+    line-height: 90px;
+}
+
+#sesion {
+    height: 400px;
+    line-height: 125px;
     text-align: center;
 }
 
-#saludo {
-    background:  #51f173;
+#pie1 {
+    background:  #51f173;   
+    line-height: 100px;
+    text-align: center;
+}
+
+
+/*************************pagina de opciones***********************/
+#opciones { 
+    height: 100px;
+    background: #51f173;
+    text-align: center;
+    line-height: 90px;
+}
+
+
+#inventario {
+    float: left;
+    width: 50%;   
+    height: 490px;
+    text-align: center;
+    line-height: 120px;
+}
+
+                nav {
+                    text-align: center;
+                    line-height: 50px;
+                }
+
+p{
+border: #51f173 groove;
+width: 590px;
+}
+
+#otrasopc {
+float: right; 
+width: 50%   
+height: 490px;
+text-align: center;   
+line-height: 120px;         
+}
+
+
+
+
+#pie2 {
+    background:  #51f173;   
+    line-height: 100px;
+    text-align: center;
+}
+
+
+/*************************Formulario prestamo y devolucion***********************/
+
+#formPD {
+background:  #51f173;
+height: 150px;
+text-align: center;
+line-height: 150px;
+}
+
+
+#contenido {
+    height: 500px;
+}
+
+#tabla{
+    float: left;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+#enviar {
+    float: inline-end;
+    text-align: center;
+    line-height: 360px;
+    height: 380px;
+}
+
+
+
+#pie3 {
+    background:  #51f173;  
+    height: 160px; 
+    line-height: 135px;
     text-align: center;
 }
