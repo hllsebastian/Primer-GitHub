@@ -10,9 +10,10 @@
 <body>
     
     <div id= formPD><h1>Formulario de prestamo y devolución</h1></div>
-
-    <section id=contenido>
-    <table align="center" " border= "2" id = tabla>
+    
+    <div id=contenido>
+    <table " border= "2"> 
+        <tbody>
         <thead> <tr>
             <th>ID Solicitud</th>
             <th>Fecha Solicitud</th>
@@ -25,7 +26,7 @@
         </tr> </thead>
 
         
-    <form action="">
+        <form action="">
         <tr> 
             <td> <input type="text"/> </td> <!--ID solicitud-->
 
@@ -43,22 +44,22 @@
             
             <td> <input type="text"/> </td> <!--Observaciones-->
         </tr>
-        </section>
-        <br>
-
-
-        <section id= enviar>
-        <input type="submit" value="Enviar">
-        </section>
-
-
-    </form>
+        </form>
+        </tbody>
     </table>
     </div>
 
+    <section id= enviar>
+        <input type="submit" value="Enviar">
+        <a href="opciones.html">
+            <input type="submit" value="Regresar">
+        </a>
+    </section>
 
+    </div>
 
     <div class="clearfix"></div>
     <footer id= pie3>Hola mundo @2021</footer>
+
 </body>
 </html>

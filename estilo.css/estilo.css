@@ -82,31 +82,47 @@ line-height: 120px;
 
 #formPD {
 background:  #51f173;
-height: 150px;
+height: 100px;
 text-align: center;
 line-height: 150px;
 }
 
-
 #contenido {
-    height: 500px;
+    width: 300px;
 }
+@media screen and (max-width: 600px) {
+    table {
+        width:100%;
 
-#tabla{
-    float: left;
-    text-align: center;
-    height: 200px;
-    width: 200px;
+    }
+    thead {
+        display: none;
+    }
+    tr:nth-of-type(2n) {
+        background-color: inherit;
+    }
+    tr td:first-child {
+        background: #f0f0f0;
+        font-weight:bold;
+        font-size:1.3em;
+    }
+    tbody td {
+        display: block;
+        text-align:center;
+    }
+    tbody td:before {
+        content: attr(data-th);
+        display: block;
+        text-align:center;
+    }
 }
 
 #enviar {
-    float: inline-end;
-    text-align: center;
+    float: right;
+    text-align: ;
     line-height: 360px;
     height: 380px;
 }
-
-
 
 #pie3 {
     background:  #51f173;  
