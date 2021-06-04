@@ -4,18 +4,15 @@
 
 body {
     font-family: calibri;
-    background:  #fbf7f6 ;
+    background:  whitesmoke;
   
 }
 
-.clearfix {
-    clear:both
-}
 
 /*/*************************pagina para inciar sesion/****************/
 #saludo {
     height: 200px;
-    background:  #51f173;
+    background: lightgreen;
     text-align: center;
     line-height: 90px;
 }
@@ -27,7 +24,7 @@ body {
 }
 
 #pie1 {
-    background:  #51f173;   
+    background:  lightgreen;   
     line-height: 100px;
     text-align: center;
 }
@@ -36,7 +33,7 @@ body {
 /*************************pagina de opciones***********************/
 #opciones { 
     height: 100px;
-    background: #51f173;
+    background: lightgreen;
     text-align: center;
     line-height: 90px;
 }
@@ -56,13 +53,13 @@ body {
                 }
 
 p{
-border: #51f173 groove;
+border: lightgreen;
 width: 590px;
 }
 
 #otrasopc {
 float: right; 
-width: 50%   
+width: 50%;   
 height: 490px;
 text-align: center;   
 line-height: 120px;         
@@ -72,7 +69,7 @@ line-height: 120px;
 
 
 #pie2 {
-    background:  #51f173;   
+    background: lightgreen;   
     line-height: 100px;
     text-align: center;
 }
@@ -81,7 +78,7 @@ line-height: 120px;
 /*************************Formulario prestamo y devolucion***********************/
 
 #formPD {
-background:  #51f173;
+background:  lightgreen;
 height: 100px;
 text-align: center;
 line-height: 150px;
